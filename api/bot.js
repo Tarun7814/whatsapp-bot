@@ -1,10 +1,9 @@
 const { Client } = require('whatsapp-web.js');
 
-const client = new Client({
-    authStrategy: new LocalAuth({
-        dataPath: '/tmp/.wwebjs_auth' // Use a temporary directory
-    }),
-});
+const client = new Client(
+    {
+        puppeteer: { headless: true },
+    });
 
 client.on('qr', (qr) => {
     console.log('QR Code received, scan it with WhatsApp:');
