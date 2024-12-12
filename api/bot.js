@@ -1,8 +1,9 @@
-const { Client, LocalAuth } = require('whatsapp-web.js');
-const qrcode = require('qrcode-terminal');
+const { Client } = require('whatsapp-web.js');
 
 const client = new Client({
-    authStrategy: new LocalAuth(),
+    authStrategy: new LocalAuth({
+        dataPath: '/tmp/.wwebjs_auth' // Use a temporary directory
+    }),
 });
 
 client.on('qr', (qr) => {
@@ -14,20 +15,8 @@ client.on('ready', () => {
     console.log('WhatsApp Bot is ready!');
 });
 
-client.on('message', async (msg) => {
-    console.log(`Message received: ${msg.body}`);
-    if (msg.body.toLowerCase() === 'hello') {
-        msg.reply('Hi! How can I assist you today?');
-    }
-});
-
 client.initialize();
 
 module.exports = (req, res) => {
-    if (req.url === '/favicon.ico') {
-        res.status(204).end(); // No Content
-        return;
-    }
-
     res.status(200).send('WhatsApp Bot is running!');
 };
