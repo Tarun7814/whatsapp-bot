@@ -24,5 +24,10 @@ client.on('message', async (msg) => {
 client.initialize();
 
 module.exports = (req, res) => {
+    if (req.url === '/favicon.ico') {
+        res.status(204).end(); // No Content
+        return;
+    }
+
     res.status(200).send('WhatsApp Bot is running!');
 };
