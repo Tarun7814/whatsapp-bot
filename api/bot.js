@@ -1,11 +1,6 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
-const express = require('express');
 
-const app = express();
-const port = 3000;
-
-// WhatsApp Client
 const client = new Client({
     authStrategy: new LocalAuth(),
 });
@@ -28,11 +23,6 @@ client.on('message', async (msg) => {
 
 client.initialize();
 
-// Express API for bot health check
-app.get('/', (req, res) => {
-    res.send('WhatsApp Bot is running!');
-});
-
-app.listen(port, () => {
-    console.log(`Express server running at http://localhost:${port}`);
-});
+module.exports = (req, res) => {
+    res.status(200).send('WhatsApp Bot is running!');
+};
