@@ -1,17 +1,13 @@
-const { Client } = require('whatsapp-web.js');
+const { Client, LocalAuth } = require('whatsapp-web.js');
+const puppeteer = require('puppeteer');
 
-const client = new Client(
-    {
-        puppeteer: { headless: true },
-    });
-
-client.on('qr', (qr) => {
-    console.log('QR Code received, scan it with WhatsApp:');
-    qrcode.generate(qr, { small: true });
-});
-
-client.on('ready', () => {
-    console.log('WhatsApp Bot is ready!');
+const client = new Client({
+    authStrategy: new LocalAuth(),
+    puppeteer: {
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'], // Required for serverless environments
+        executablePath: puppeteer.executablePath(), // Use Puppeteer's bundled Chromium
+    },
 });
 
 client.initialize();
