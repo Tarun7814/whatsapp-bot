@@ -8,8 +8,6 @@ const port = process.env.PORT || 4001;
 // Import Firebase modules for Firestore
 const { initializeApp } = require("firebase/app");
 const { getFirestore, collection, addDoc } = require("firebase/firestore");
-const Buttons = require("./Buttons")
-const Poll = require("./structures/Poll")
 
 // Import Firebase configuration
 const firebaseConfig = require("./firebaseConfig");
@@ -52,32 +50,10 @@ client.on('message', async (message) => {
         console.error("Error adding document: ", e);
     }
 
-    
-
-    if (message.body.toLowerCase() === 'pay') {
-        const chat = await message.getChat();
-
-        // Create Buttons message
-        let button = new Buttons(
-            'Choose an option',
-            [
-                { body: 'Pay You' },
-                { body: 'Pay Me' },
-                { body: 'Cancel' }
-            ],
-            'Payment Options',
-            'Select a payment action'
-        );
-
-        // Send the button message
-        client.sendMessage(message.from, button);
+    // Example: Reply to a specific message
+    if (message.body.toLowerCase() === 'hello') {
+        message.reply('Hi there! How can I help you?');
     }
-
-    // Handle user clicking the buttons
-    if (message.body === 'Pay You' || message.body === 'Pay Me') {
-        message.reply(`You selected: ${message.body}`);
-    }
-    
 });
 
 // Log errors
