@@ -1,15 +1,13 @@
-2024/12/17-15:42:28.317 19e8b Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/17-15:42:28.318 19e8b Recovering log #117
-2024/12/17-15:42:28.332 19e8b Reusing old log /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000117.log 
-2024/12/17-15:42:28.332 19e8b Delete type=2 #118
-2024/12/17-15:42:28.332 19e8b Delete type=2 #115
-2024/12/17-15:42:30.544 19e87 Level-0 table #122: started
-2024/12/17-15:42:30.552 19e87 Level-0 table #122: 173140 bytes OK
-2024/12/17-15:42:30.554 19e87 Delete type=0 #117
-2024/12/17-15:42:30.555 19e87 Manual compaction at level-0 from '\x00-\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/17-15:42:33.567 19e97 Compacting 1@1 + 1@2 files
-2024/12/17-15:42:33.624 19e97 Generated table #123@1: 30348 keys, 1118759 bytes
-2024/12/17-15:42:33.624 19e97 Compacted 1@1 + 1@2 files => 1118759 bytes
-2024/12/17-15:42:33.626 19e97 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/17-15:42:33.626 19e97 Delete type=2 #119
-2024/12/17-15:42:33.626 19e97 Delete type=2 #122
+2024/12/19-14:50:42.598 4c72 Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/19-14:50:42.598 4c72 Recovering log #209
+2024/12/19-14:50:42.607 4c72 Reusing old log /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000209.log 
+2024/12/19-14:50:44.539 4cac Level-0 table #214: started
+2024/12/19-14:50:44.546 4cac Level-0 table #214: 117199 bytes OK
+2024/12/19-14:50:44.549 4cac Delete type=0 #209
+2024/12/19-14:50:44.551 4cad Manual compaction at level-0 from '\x00D\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00E\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/19-14:50:47.406 4cad Compacting 1@1 + 1@2 files
+2024/12/19-14:50:47.494 4cad Generated table #215@1: 47880 keys, 1618688 bytes
+2024/12/19-14:50:47.494 4cad Compacted 1@1 + 1@2 files => 1618688 bytes
+2024/12/19-14:50:47.497 4cad compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/19-14:50:47.497 4cad Delete type=2 #214
+2024/12/19-14:50:47.497 4cad Delete type=2 #211

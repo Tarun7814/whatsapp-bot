@@ -1,2 +1,3 @@
-2024/12/17-15:05:49.143 1835f Creating DB /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/shared_proto_db since it was missing.
-2024/12/17-15:05:49.150 1835f Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/shared_proto_db/MANIFEST-000001
+2024/12/19-13:00:37.381 20d0 Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/shared_proto_db/MANIFEST-000001
+2024/12/19-13:00:37.381 20d0 Recovering log #3
+2024/12/19-13:00:37.382 20d0 Reusing old log /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/shared_proto_db/000003.log 

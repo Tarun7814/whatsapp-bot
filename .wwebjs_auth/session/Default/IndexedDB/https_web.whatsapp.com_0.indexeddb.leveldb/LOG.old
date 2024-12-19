@@ -1,11 +1,13 @@
-2024/12/17-15:40:43.785 19cf3 Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/17-15:40:43.785 19cf3 Recovering log #113
-2024/12/17-15:40:43.795 19cf3 Reusing old log /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000113.log 
-2024/12/17-15:40:45.714 19d3d Level-0 table #118: started
-2024/12/17-15:40:45.719 19d3d Level-0 table #118: 131484 bytes OK
-2024/12/17-15:40:45.721 19d3d Delete type=0 #113
-2024/12/17-15:40:45.723 19d3d Manual compaction at level-0 from '\x00,\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00-\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/17-15:40:48.572 19cef Compacting 1@1 + 1@2 files
-2024/12/17-15:40:48.655 19cef Generated table #119@1: 29677 keys, 1108317 bytes
-2024/12/17-15:40:48.655 19cef Compacted 1@1 + 1@2 files => 1108317 bytes
-2024/12/17-15:40:48.658 19cef compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/19-14:50:15.963 4b7a Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/19-14:50:15.964 4b7a Recovering log #205
+2024/12/19-14:50:15.974 4b7a Reusing old log /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000205.log 
+2024/12/19-14:50:17.905 4b7d Level-0 table #210: started
+2024/12/19-14:50:17.910 4b7d Level-0 table #210: 124009 bytes OK
+2024/12/19-14:50:17.913 4b7d Delete type=0 #205
+2024/12/19-14:50:17.913 4b7d Manual compaction at level-0 from '\x00C\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00D\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/12/19-14:50:20.858 4b80 Compacting 1@1 + 1@2 files
+2024/12/19-14:50:20.996 4b80 Generated table #211@1: 47388 keys, 1607645 bytes
+2024/12/19-14:50:20.996 4b80 Compacted 1@1 + 1@2 files => 1607645 bytes
+2024/12/19-14:50:20.998 4b80 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/19-14:50:20.998 4b80 Delete type=2 #207
+2024/12/19-14:50:20.998 4b80 Delete type=2 #210
