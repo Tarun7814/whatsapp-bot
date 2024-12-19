@@ -4,6 +4,7 @@ const qrcode = require('qrcode-terminal');
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 4001;
+const path = require('path');
 
 // Import Firebase modules for Firestore
 const { initializeApp } = require("firebase/app");
@@ -53,6 +54,26 @@ client.on('message', async (message) => {
     // Example: Reply to a specific message
     if (message.body.toLowerCase() === 'hello') {
         message.reply('Hi there! How can I help you?');
+    }
+
+
+    if (message.body.toLowerCase() === 'photo') {
+        console.log('Sending photo...');
+
+        // Path to the image you want to send
+        const imagePath = path.join(__dirname, 'images.jpeg');
+        
+        // Create a MessageMedia object for the image
+        const media = MessageMedia.fromFilePath(imagePath);
+        
+        // Send the image to the chat
+        message.reply(media)
+            .then(response => {
+                console.log('Image sent successfully:', response);
+            })
+            .catch(error => {
+                console.error('Error sending image:', error);
+            });
     }
 });
 
