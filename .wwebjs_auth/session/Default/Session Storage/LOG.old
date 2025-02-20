@@ -1,2 +1,3 @@
-2025/02/20-14:15:11.349 bc7ca Creating DB /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/Session Storage since it was missing.
-2025/02/20-14:15:11.358 bc7ca Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/Session Storage/MANIFEST-000001
+2025/02/20-15:48:25.507 befe6 Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/Session Storage/MANIFEST-000001
+2025/02/20-15:48:25.507 befe6 Recovering log #3
+2025/02/20-15:48:25.508 befe6 Reusing old log /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/Session Storage/000003.log 
