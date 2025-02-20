@@ -1,13 +1,24 @@
-2024/12/19-14:50:42.598 4c72 Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/19-14:50:42.598 4c72 Recovering log #209
-2024/12/19-14:50:42.607 4c72 Reusing old log /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000209.log 
-2024/12/19-14:50:44.539 4cac Level-0 table #214: started
-2024/12/19-14:50:44.546 4cac Level-0 table #214: 117199 bytes OK
-2024/12/19-14:50:44.549 4cac Delete type=0 #209
-2024/12/19-14:50:44.551 4cad Manual compaction at level-0 from '\x00D\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00E\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/12/19-14:50:47.406 4cad Compacting 1@1 + 1@2 files
-2024/12/19-14:50:47.494 4cad Generated table #215@1: 47880 keys, 1618688 bytes
-2024/12/19-14:50:47.494 4cad Compacted 1@1 + 1@2 files => 1618688 bytes
-2024/12/19-14:50:47.497 4cad compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/19-14:50:47.497 4cad Delete type=2 #214
-2024/12/19-14:50:47.497 4cad Delete type=2 #211
+2025/02/20-14:16:26.114 bc9d9 Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/20-14:16:26.114 bc9d9 Recovering log #36
+2025/02/20-14:16:26.243 bc9d9 Reusing old log /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000036.log 
+2025/02/20-14:16:28.709 bca23 Level-0 table #41: started
+2025/02/20-14:16:28.725 bca23 Level-0 table #41: 573156 bytes OK
+2025/02/20-14:16:28.727 bca23 Delete type=0 #36
+2025/02/20-14:16:28.728 bca23 Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/20-14:16:28.734 bc9df Level-0 table #43: started
+2025/02/20-14:16:28.736 bc9df Level-0 table #43: 445 bytes OK
+2025/02/20-14:16:28.739 bc9df Delete type=0 #40
+2025/02/20-14:16:28.739 bc9df Manual compaction at level-0 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at '\x00\x17\x00\x00\x05' @ 78684 : 0
+2025/02/20-14:16:28.739 bc9df Compacting 1@0 + 1@1 files
+2025/02/20-14:16:28.765 bc9df Generated table #44@0: 11179 keys, 351247 bytes
+2025/02/20-14:16:28.765 bc9df Compacted 1@0 + 1@1 files => 351247 bytes
+2025/02/20-14:16:28.767 bc9df compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/02/20-14:16:28.768 bc9df Delete type=2 #43
+2025/02/20-14:16:28.769 bc9df Manual compaction at level-0 from '\x00\x17\x00\x00\x05' @ 78684 : 0 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/20-14:16:32.038 bc9df Compacting 1@1 + 1@2 files
+2025/02/20-14:16:32.140 bc9df Generated table #45@1: 16728 keys, 775118 bytes
+2025/02/20-14:16:32.140 bc9df Compacted 1@1 + 1@2 files => 775118 bytes
+2025/02/20-14:16:32.142 bc9df compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/20-14:16:32.143 bc9df Delete type=2 #44
+2025/02/20-14:16:32.143 bc9df Delete type=2 #38
+2025/02/20-14:16:32.143 bc9df Delete type=2 #41

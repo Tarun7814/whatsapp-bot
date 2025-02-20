@@ -1,3 +1,2 @@
-2024/12/19-14:50:15.499 4b7d Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/Service Worker/Database/MANIFEST-000001
-2024/12/19-14:50:15.499 4b7d Recovering log #3
-2024/12/19-14:50:15.499 4b7d Reusing old log /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/Service Worker/Database/000003.log 
+2025/02/20-14:15:13.076 bc7d5 Creating DB /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/Service Worker/Database since it was missing.
+2025/02/20-14:15:13.085 bc7d5 Reusing MANIFEST /home/rbpcadmin/Documents/whatsapp-bot/.wwebjs_auth/session/Default/Service Worker/Database/MANIFEST-000001
